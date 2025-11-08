@@ -15,4 +15,8 @@ Classe princiapl: nomeDoProjetoApplication
 - Classe de entrada que chama a execução de toda a aplicação
 
 Anotações: começam com @ e servem para fazer configurações da nossa classe 
-- @SpringBootApplication: define a porta de entrada do SpringBoot. Ativa auto configuração so pring, 
+- @SpringBootApplication: define a porta de entrada do SpringBoot. Ativa auto configuração so pring
+- @RestController: indica de essa classe é um controler REST (não mantém o estado do cliente) e retorna uma resposta HTTP 
+
+Classe Controller: uma classe que vai receber requisições HTTP 
+- 
