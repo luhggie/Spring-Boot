@@ -16,7 +16,10 @@ Classe Service: contém a lógica das regras do controller
 - @SpringBootApplication: define a porta de entrada do SpringBoot. Ativa auto configuração so pring
 - @RestController: indica de essa classe é um controler REST (não mantém o estado do cliente) e retorna uma resposta HTTP
 - @RequestMapping(NomeDoParametroQueQUerMapear): mapeia uma requisição
-- @GetMapping: endpoint responde a uma requisicão do método GET do HTTP 
+- @GetMapping: endpoint responde a uma requisicão do método GET do HTTP
+- @PostMapping(), @PutMapping(), @DeleteMapping() e @PatchMapping(): mesma coisa que o GET porém para os outros métodos de HTTP
+- @RequestParam: ega valores que vêm na query string (depois de ?) — usados para filtros, paginação, ordenação, flags etc.
+- @PathVariable: pega valores que fazem parte do caminho (path) da URL — normalmente identificadores de recurso.
 
 *Dicionário*
 
