@@ -34,3 +34,7 @@ A função é permitir que uma aplicação utilize funcionalidades de outra sem 
 **EndPoint**: Um endpoint é um “ponto de entrada” de um serviço: endereço + método onde seu app recebe uma requisição e responde algo.
 
 **JSON**: JSON é um formato de dados (texto) para trocar informação entre sistemas. O nome vem de JavaScript Object Notation
+
+**DTO**: Data Transfer Object.
+É um objeto simples (geralmente record em Java) usado para entrar e sair da sua API — ou seja, o “pacotinho de dados” do contrato HTTP.
+Ele não tem regra de negócio nem anotações de persistência; serve para não expor a entidade JPA e para você controlar exatamente o que o cliente envia/recebe.
